@@ -22,6 +22,7 @@
 
 .column-1 {
   background-color: lightgray;
+  width: auto;
 }
 
 .column-2 {
@@ -29,4 +30,22 @@
 }
 .column-3 {
   background-color: lightcoral;
+}
+
+.marquee {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  overflow: scroll;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateY(25%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
 }
