@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  width: 100vh;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.column-1 {
+  background-color: lightgray;
+}
+
+.column-2 {
+  background-color: yellow;
+}
+.column-3 {
+  background-color: lightcoral;
+}
